@@ -8,7 +8,7 @@ namespace Consola
 {
     internal class Acciones
     {
-        Profesor pr = new Profesor();
+        Profesor pr = new Profesor();   
         Profesor[] arregloprofesor;
 
         public void AgregarProfesor()
@@ -16,7 +16,7 @@ namespace Consola
             Console.WriteLine("Cuantos profesores deseas agregar");
             int numprofesores = Convert.ToInt32(Console.ReadLine());
 
-            arregloprofesor = new Profesor[numprofesores];
+            arregloprofesor = new Profesor[numprofesores]; //ffd
 
             for (int i = 0; i < arregloprofesor.Length; i++)
             {
